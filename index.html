@@ -8,12 +8,20 @@
     <body>
         <header>
             <nav>
+                <!-- 
+                    You need to add the img folder and the file you are referrencing in the img tag bellow.
+
+                    Same goes for other img tags
+                 -->
                 <img src="img\portfolio icon.jpg" alt="EdgeLedger Logo" width="800px">
                 <h1>EdgeLedger</h1>
             </nav>
             <nav>
                 <ul>
                     <li>
+                        <!-- 
+                            Add the element that these a tags will link to on this page
+                         -->
                         <a href="#">Home</a>
                     </li>
                     <li>
@@ -101,12 +109,24 @@
                             <input type="text" id="name" placeholder="Name"> 
                         </label>
                         <label>
+                            <!-- 
+                                Since this is an email, the type should reflect that
+                             -->
                             <input type="text" id="Email" placeholder="Email">
                         </label>
                         <label>
+                            <!-- 
+                                Update the type attribute
+                             -->
                             <input type="text" id="Phone Number" placeholder="Phone Number">
                         </label>
                     </form>
+                    <!-- 
+                        This send button needs to be a child of the form element above
+
+                        I presume it is the button that should submit the form above, if that is the case, then
+                        it will have no effect if it stays here
+                     -->
                     <button>Send</button>
                 </section>
                 </div>
@@ -133,3 +153,9 @@
         </footer>
     </body>
 </html>
+
+<!-- 
+    Good work in general.
+
+    I like the way you used tags with semantics to represent the content they render
+ -->
